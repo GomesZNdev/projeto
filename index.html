@@ -1,0 +1,360 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKETADA - Apresentação</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        background-image: url('img/fundo.png'); /* Caminho da imagem */
+        background-repeat: repeat; /* Evita repetição da imagem */
+        color: #fff;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #1c1c1c;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .header h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+
+      .header p {
+        font-size: 18px;
+        color: #aaa;
+      }
+      @font-face {
+        font-family: grafiti;
+        src: url(txt/Hesorder.ttf) format('truetype');
+        
+      }
+      @font-face {
+        font-family: papodez;
+        src: url(txt/Another\ Danger\ Slanted\ -\ Demo.ttf) format('truetype');
+        
+      }
+    
+      @font-face {
+        font-family: beba;
+        src: url(txt/BebasNeue-Regular.ttf) format('truetype');
+        
+      }
+
+      .history {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .history h2:hover{
+  transform:scale(1.1)
+}
+
+      .history h2 {
+        font-family:beba;
+        font-size: 40px;
+        color: #fff;
+
+      }
+
+      .history p {
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 20px auto;
+        color: #ccc;
+      }
+  .historyU {
+
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .historyU h2 {
+    font-size: 40px;
+    font-family: beba;
+    color: #fff;
+  }
+
+  .historyU p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #ccc;
+  }
+      .team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .team-member {
+        margin: 40px;
+        margin-top: -20px;
+        width: 250px;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transform: rotate(356deg);
+        overflow: hidden;
+        border-radius: 8px;
+      }
+      .team-member:hover{
+        transform:scale(1.1)
+      }
+
+      .team-member .image-wrapper {
+        position: relative;
+        width: 100%;
+        margin-bottom: 15px;
+        overflow: hidden;
+      }
+
+      .team-member img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+      }
+
+      .team-member h3, .team-member p, .team-member .specialty {
+        font-size: 16px;
+        color: #bb0000;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-wrap: break-word;
+      }
+    
+
+      .team-member h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+
+      .team-member p {
+        font-size: 14px;
+        color: #161616;
+        margin: 10px 0;
+      }
+
+      .team-member .specialty {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #1f1f1f;
+      }
+      @keyframes gradientMove {
+    0% {
+      background-position: -100%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+
+      .texto-gradiente {
+        font-family: beba;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        background: linear-gradient(90deg,#860000 0,#860000 25%,#181818 50%,#860000 75%,#292929 100%);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: 10s linear infinite rgbAnimation
+}
+
+@keyframes rgbAnimation {
+    0%,100% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 100% 100%
+    }
+}
+  .fonte-diferente {
+    font-family: papodez;
+    text-align: center;
+    margin-top:-85px;
+    font-size: 40px;
+    font-weight: bold;
+        background: linear-gradient(90deg,#860000 0,#860000 25%,#181818 50%,#860000 75%,#292929 100%);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: 10s linear infinite rgbAnimation
+
+  }
+  footer {
+    text-align: center;
+    color: rgb(133, 133, 133);
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.logo-item {
+    margin-right: 5px
+}
+
+.logo {
+
+  transform:scale(1.1)
+}
+
+.logo:hover {
+    transform: rotate(360deg)
+}
+
+
+
+
+    
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <img src="img/logo.png" alt="logo" class="logo">
+        <p>PROJETO/PROPOSTA CPX</p>
+      </div>
+
+
+       <h2 class="texto-gradiente">"MARKETADA"</h2>
+       <div class="history">
+        <P>O porque do nome "MARKETADA" - O Nome foi desenvolvido em conjunto com os outros lideres com a filosofia de sermos diferenciados nos pensamentos e modos de agir pensando no futuro do que pode vir a acontecer, o famoso "GERAR". Como se fosse em uma proposta de marketing digital, pensando no ganho que possa acontecer com a mente sempre nos ganhos futuros</P>
+        <h2>ONDE TUDO COMEÇOU?</h2>
+        <p>O surgimento do projeto se deu inicio em 2022, onde um grupo de amigos decidem viajar para uma cidade chamada "Eldorado Roleplay". O tempo foi se passando, vieram alguns desafios e algumas dificuldades, porém com muita persistência e vontade, conseguimos nos adaptar com o novo ambiente. Fomos crescendo e elevando nosso nome, ganhando reconhecimento na cidade, onde fomos chamados para outros projetos.</p>
+        <h2>PERSISTENCIA & DETERMINAÇÃO</h2>
+        <p>Logo no inicio de 2023, nós migramos para a cidade "One Roleplay", Após sermos convidados com nosso projeto. Onde demos início ao nosso primeiro teste de persistência e determinação, conhecemos muitas pessoas nesse período, onde muitas delas estão até hoje conosco. Em pouco tempo na cidade conquistamos nossa primeira favela e fabricação de drogas, e em mais alguns meses na cidade participamos de um grande evento que aconteceu na cidade, onde saímos vitoriosos e trouxemos o troféu para casa, em pouco tempo nos tornamos a família mais reconhecida da cidade graças a nossa "persistência e determinação". Logo após esse evento conseguimos expandir nossa produção e passamos a trabalhar com fabricação de armamentos. Reunimos mais de 50 membros ativos na facção e ganhamos mais reconhecimento para o projeto e para nosso streamers e criados de conteúdo, porém após uma proposta vinda do "Cidade Alta", conversamos com toda nossa gerencia e membros e decidimos migrar mais uma vez para expandir nossos conhecimentos e ter novas experiências.</p>
+      <h2>O APRENDIZADO</h2>
+      <P>Chegando no cidade alta, iriamos ficar nosso primeiro mes em sua cidade de aprendizado “valley” para avaliação, no entando nos destacamos com nossa colaboração na cidade movimentando ela que acabamos migrando para a cidade principal em 02 semanas, onde iriamos dar início a mais uma nova jornada. Ficamos aproximadamente 03 meses em um gueto apertado e pequeno ao lado da groove, e após muitas missões e desafios enfrentados conquistamos nossa primeira favela e produção de drogas na cidade ficamos estabelecidos por mais 09 meses, gerando nosso vapo e desenvolvendo nosso “roleplay” (pois era uma cidade com o conceito bem alto em rp na epoca), após mais alguns meses completando um pouco mais de 1 ano de desenvolvimento na cidade, recebemos uma proposta para participar da cidade “hype roleplay”, sabiamos que seria algo desafiador novamente, começar uma jornada totalmente do zero. Porém após nos despedirmos do ilegal do cidade alta, saímos com uma sensação de dever cumprido na cidade!</P>
+      <h2>O RECONHECIMENTO</h2>
+      <P>Nossa chegada no “hype” foi impactante pois chegamos para ajudar um dos lados do ilegal da cidade a milicia, que foi o lado que nos ajudou no início de nossa jornada em meio a muitos atritos e dificuldades conquistamos nosso primeiro produto em semanas fazendo missões e juntando dinheiro. Com a produção de grampo que nos foi concedido, nos destacamos principalmente pelo rápido atendimento e grande quantidade de vendas, em questão de dias estávamos abastecendo a cidade inteira sem problemas. Alguns meses com esse produto tivemos a oportunidade de participar de uma guerra onde todas as facções que sonhavam em obter um local para morar e manter seus membros juntos (favela) participaram de um evento chamado “hype tournament” que após muitos jogos decisivos e muitos chaveamentos ganhos chegamos a final do torneio, onde competimos com a Bélgica em uma grande final que decidiria nosso futuro e mesmo em um jogo extremamente difícil, saímos vitorioso e ganhando uma melhor de 3 e garantindo novamente a vitória para a organização. Atualmente completando ai seus 02 anos de desenvolvimento e criação de conteúdo no hype decidimos tentar migrar para o cpx com nosso projeto, onde temos como objetivo novamente provar para todos que não existe fim e sim apenas um recomeço!</P>
+    <H2>A GERENCIA</H2> 
+    <div class="team">
+      <div class="team-member">
+        <div class="image-wrapper">
+          <img src="img/jao.png" alt="Membro 1">
+        </div>
+        <h3>JOÃO "JÃO"</h3>
+        <p>O Líder</p>
+        <p class="specialty">É a peça central do grupo, sendo o principal responsável pelas decisões estratégicas. Com uma visão apurada e habilidades persuasivas, ele consegue influenciar e obter o que deseja de maneira natural, apenas agindo conforme sua própria personalidade.</p>
+      </div>
+
+        <div class="team">
+          <div class="team-member">
+            <div class="image-wrapper">
+              <img src="img/fabio.png" alt="Membro 1">
+            </div>
+            <h3>FÁBIO "PAPPIS"</h3>
+            <p>Sagaz</p>
+            <p class="specialty">Um cara observador, um pouco mais introvertido, mas super responsável e atento, evita conflitos mas caso aconteça algo vai fazer o necessário para dar um ponto final.</p>
+          </div>
+    
+          <div class="team-member">
+            <div class="image-wrapper">
+              <img src="img/gomes.png" alt="Membro 2">
+            </div>
+            <h3>GOMES</h3>
+            <p>Explorador</p>
+            <p class="specialty">Um explorador do crime. Um aventureiro astuto e implacável, movido pela ambição e pela busca do lucro ilícito. Ele se infiltra em territórios desconhecidos, descobre rotas secretas e manipula pessoas e sistemas para alcançar seus objetivos. Mestre da dissimulação e do improviso, opera nas sombras, sempre um passo à frente da lei e dos rivais.</p>
+          </div>
+          <div class="team">
+            <div class="team-member">
+              <div class="image-wrapper">
+                <img src="img/lk.png" alt="Membro 1">
+              </div>
+              <h3>VINICIOS "LK"</h3>
+              <p>Criminoso</p>
+              <p class="specialty">está ligado à busca por poder, dinheiro e status, muitas vezes impulsionado por circunstâncias sociais difíceis  e pela falta de opções viáveis. Além disso, a criminalidade acaba criando uma identidade que reforça o ciclo de comportamento desviado, dificultando a reintegração à sociedade.</p>
+            </div>
+      
+            <div class="team-member">
+              <div class="image-wrapper">
+                <img src="img/aurora.png" alt="Membro 2">
+              </div>
+              <h3>AURORA</h3>
+              <p>Bipolar</p>
+              <p class="specialty">Tem um transtorno bipolar e pode passar de um estado de euforia, alta energia, ideias aceleradas e comportamento impulsivo para um estado de tristeza profunda, baixa energia e dificuldades para realizar tarefas cotidianas.</p>
+            </div>
+            
+        </div>
+        <div class="team">
+          <div class="team-member">
+            <div class="image-wrapper">
+              <img src="img/rodrigues.png" alt="Membro 1">
+            </div>
+            <h3>BRUNO "RODRIGUES"</h3>
+            <p>Veterano</p>
+            <p class="specialty">Um cara antigo no ramo do ilegal com habilidades inexplicáveis em pilotar e correr sempre atento aos detalhes e extremamente focado. Sua ambição o leva a desafiar limites, se tornando cada vez melhor nas ruas e nas escolhas que faz.</p>
+          </div>
+    
+          <div class="team-member">
+            <div class="image-wrapper">
+              <img src="img/junior.png" alt="Membro 2">
+            </div>
+            <h3>JUNIOR "JUNIN"</h3>
+            <p>Audacioso</p>
+            <p class="specialty">Tipo de cara que gosta de um confronto sempre se metendo em situações onde a adrenalina está lá em cima, Ele não tem medo de um tiroteio quando a situação pede, ele não pensa duas vezes antes de se envolver. Gosta de viver no limite, mas sem buscar confusão de graça. Está sempre atento e quando a coisa esquenta, ele não hesita em entrar no jogo.</p>
+          </div>
+        </div>
+        <div class="team">
+          <div class="team-member">
+            <div class="image-wrapper">
+              <img src="img/guibson.png" alt="Membro 1">
+            </div>
+            <h3>GIBSON "O'HARO"</h3>
+            <p>Versátil</p>
+            <p class="specialty">Um criminoso responsável e adaptável capaz de se encaixar em qualquer ambiente seja ele tenso ou descontraído. Com uma personalidade bem-humorada, consegue lidar com situações complicadas de maneira tranquila, sempre mantendo o controle. Sua responsabilidade é uma característica marcante sendo alguém em quem os outros podem confiar independentemente das circunstâncias.</p>
+          </div>
+    
+          <div class="team-member">
+            <div class="image-wrapper">
+              <img src="img/matue.png" alt="Membro 2">
+            </div>
+            <h3>CARLOS "MATUE"</h3>
+            <p>Visionário</p>
+            <p class="specialty">Alguém extremamente responsável e comprometido com foco total nos objetivos da família e do grupo ao qual pertence, Ele se dedica a garantir a evolução e o sucesso de todos ao seu redor, desde os membros mais antigos até os novatos, fazendo o possível para que todos cresçam e se fortaleçam.</p>
+          </div>
+        </div>
+    </div>
+    <div class="historyU">
+      <H2>INFORMAÇÕES ADICIONAIS</H2>
+      <P>TODOS MEMBROS POSSUEM IDADE SUPERIOR Á 16 ANOS</P>
+      <P>TODOS MEMBROS TEM DISPONIBILIDADE NO MINIMO 04 HORAS POR DIA PARA DESENVOLVER E GERAR CONTEUDO</P>
+      <p>DISCORD PARA CONTATO DO CEO DO PROJETO: <span style="color: red;">JAOZIINOF</span></p>
+      <h2>CONCLUSÃO</h2>
+      <P>GOSTARÍAMOS DE CONCLUIR RESSALTANDO QUE, ALÉM DE SEGUIR O RP PROPOSTO, NOSSO PRINCIPAL OBJETIVO É CRIAR UMA EXPERIÊNCIA MAIS DESCONTRAÍDA, COM OBJETIVOS E PRINCÍPIOS BEM DEFINIDOS. COMO SOMOS, EM SUA MAIORIA, CRIADORES DE CONTEÚDO DE LIVES E VÍDEOS, NOSSO FOCO É ATRAIR A ATENÇÃO PARA O NOSSO GRUPO E, CLARO, PARA A CIDADE CPX. FICARÍAMOS IMENSAMENTE GRATOS SE NOSSO PROJETO FOSSE ACEITO, POIS ELE FOI DESENVOLVIDO DE FORMA EXCLUSIVA PARA SER IMPLEMENTADO NO COMPLEXO, COM A CERTEZA DE QUE CONSEGUIREMOS NOS DESTACAR NA COMUNIDADE E FAZER PARTE DELA. AGRADECEMOS POR DEDICAREM SEU TEMPO PARA LER NOSSO PROJETO. </P> <P><span style="color: red;">#CPXTÁTEGA</span></P>
+      <br></br>
+    </div>
+    </div>
+  </div>
+      <p class="fonte-diferente">ATT MARKETADA</p>
+    </body>
+    <footer>
+      <p>&copy; Todos os direitos reservados.</p>
+  </footer>
+  </html>
